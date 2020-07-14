@@ -27,7 +27,7 @@ import static com.example.kamrankhan.pstapplication.R.id.folder;
 
 public class DbAdapter {
 
-    public static final String FileName = "kamideegreat@gmail.com.pst";
+    public static final String FileName = "your@email.com.pst";
     public static final String FileLocation = "data/data/com.example.kamrankhan.pstapplication/files";
 
     //COMMON COLUMN NAMES IN ALL TABLES
