@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mail Handler</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_rootfolders">Outlook</string>
+    <string name="Logo">Logo</string>
+    <string name="title_activity_activity_childfolders">Child Folders</string>
+    <string name="emptyList">We did not find anything to show here.</string>
+    <string name="title_activity_activity_subchildfolder">activity_subchildfolder</string>
+    <string name="title_activity_activity_email">Compose</string>
+    <string name="title_activity_reply_email">Reply</string>
+    <string name="title_activity_forward_email">Forward</string>
+    <string name="title_activity_replyall_email">Reply All</string>
+</resources>

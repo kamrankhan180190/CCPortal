@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kamrankhan.myapplication.MainActivity">
+    <item
+        android:id="@+id/id_search"
+        android:title="Search"
+        android:orderInCategory="100"
+        android:icon="@drawable/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"/>
+
+    <item
+        android:id="@+id/id_add_folder"
+        android:title="Add Folder"
+        android:orderInCategory="200"
+        android:icon="@drawable/add_folder"
+        app:showAsAction="always"/>
+
+
+
+</menu>

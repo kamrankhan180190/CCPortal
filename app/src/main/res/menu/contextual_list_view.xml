@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kamrankhan.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/delete_item"
+        android:title="Delete"
+        android:orderInCategory="100"
+        android:icon="@drawable/delete"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/move_item"
+        android:title="Move"
+        android:orderInCategory="200"
+        android:icon="@drawable/move"
+        app:showAsAction="never"
+
+        />
+
+    <item
+        android:id="@+id/copy_item"
+        android:title="Copy"
+        android:orderInCategory="300"
+        android:icon="@drawable/copy"
+        app:showAsAction="never"
+
+        />
+
+    <item
+        android:id="@+id/select_all"
+        android:checkable="true"
+        android:title="All"
+        android:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="always" />
+
+</menu>

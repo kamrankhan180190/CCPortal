@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kamrankhan.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/id_send"
+        android:title="Send"
+        android:orderInCategory="200"
+        android:icon="@drawable/send"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/id_cancel"
+        android:title="Cancel"
+        android:orderInCategory="100"
+        android:icon="@drawable/cancel"
+        app:showAsAction="always"/>
+
+</menu>

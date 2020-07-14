@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kamrankhan.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/id_reply"
+        android:title="Reply"
+        android:orderInCategory="200"
+        android:icon="@drawable/reply"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/id_reply_all"
+        android:title="Reply All"
+        android:orderInCategory="300"
+        android:icon="@drawable/reply_all"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/id_forward"
+        android:title="Forward"
+        android:orderInCategory="400"
+        android:icon="@drawable/forward"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/id_compose"
+        android:title="Compose"
+        android:orderInCategory="100"
+        android:icon="@drawable/compose"
+        app:showAsAction="always"/>
+
+</menu>
